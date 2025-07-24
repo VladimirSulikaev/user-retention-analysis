@@ -1,4 +1,4 @@
--- Формула для расчёта Retention
+-- Формула для расчёта Retention, график аудитории по неделям
 
 SELECT this_week, previous_week, -uniq(user_id) as num_users, status
 FROM
